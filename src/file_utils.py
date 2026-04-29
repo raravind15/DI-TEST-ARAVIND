@@ -2,7 +2,7 @@ import logging
 from datetime import datetime
 from google.cloud import storage
 import re
-from config import CONFIG
+from config.config import CONFIG
 
 logging.basicConfig(level=logging.INFO,format=f"%(asctime)s-%(levelname)s-%(message)s")
 logger=logging.getLogger(__name__)
