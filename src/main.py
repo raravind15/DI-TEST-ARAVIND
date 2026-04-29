@@ -1,4 +1,4 @@
-import file_utils
+import file_utils as file_utils
 
 def main():
     print("Started Process")
