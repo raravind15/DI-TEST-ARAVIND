@@ -14,7 +14,7 @@ CONFIG = {
     'file_format': 'PARQUET',
     'load_type': 'WRITE_APPEND',
     'mandatory_columns': ['employee_id'],  # Columns that must exist
-    'mandatory_non_null_columns': ['department_id'],  # Columns that must not be null
+    'mandatory_non_null_columns': ['employee_id'],  # Columns that must not be null
     'row_count_validation': True,
     'row_count_threshold': 0,  # Exact match
     'reject_empty_file': True,
